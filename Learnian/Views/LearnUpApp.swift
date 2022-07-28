@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct LearnUpApp: App {
+    @StateObject private var dataController = DataController()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Learn" representedClassName="Learn" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="reflect" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Reflect" inverseName="learn" inverseEntity="Reflect"/>
+    </entity>
+    <entity name="Reflect" representedClassName="Reflect" syncable="YES" codeGenerationType="class">
+        <attribute name="action" optional="YES" attributeType="String"/>
+        <attribute name="diff" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="well" optional="YES" attributeType="String"/>
+        <relationship name="learn" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Learn" inverseName="reflect" inverseEntity="Learn"/>
+    </entity>
+    <elements>
+        <element name="Learn" positionX="-54" positionY="-9" width="128" height="89"/>
+        <element name="Reflect" positionX="-36" positionY="18" width="128" height="119"/>
+    </elements>
+</model>

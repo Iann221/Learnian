@@ -11,14 +11,36 @@
 		3C1D8569288D91C100C2FA13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D8568288D91C100C2FA13 /* ContentView.swift */; };
 		3C1D856B288D91C200C2FA13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1D856A288D91C200C2FA13 /* Assets.xcassets */; };
 		3C1D856E288D91C200C2FA13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1D856D288D91C200C2FA13 /* Preview Assets.xcassets */; };
+		3C1D8576288D91D300C2FA13 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D8574288D91D300C2FA13 /* Model.xcdatamodeld */; };
+		3C1D8578288D9CA800C2FA13 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D8577288D9CA800C2FA13 /* DataController.swift */; };
+		3C1D857A288E324B00C2FA13 /* TitleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D8579288E324B00C2FA13 /* TitleInput.swift */; };
+		3C1D857C288E40BC00C2FA13 /* ReflectInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D857B288E40BC00C2FA13 /* ReflectInput.swift */; };
+		3C434159288E7BD30057CC5B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C434158288E7BD30057CC5B /* Color.swift */; };
+		3C43415B288E84E00057CC5B /* ActionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43415A288E84E00057CC5B /* ActionDetail.swift */; };
+		3C43415D288FACA10057CC5B /* LearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43415C288FACA10057CC5B /* LearningView.swift */; };
+		3C43415F288FACB00057CC5B /* Learned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43415E288FACB00057CC5B /* Learned.swift */; };
+		3C4341612890F2E10057CC5B /* LearnedDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4341602890F2E10057CC5B /* LearnedDetail.swift */; };
+		3C4341652890F5860057CC5B /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4341642890F5860057CC5B /* SplashScreen.swift */; };
+		3C434170289259110057CC5B /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43416F289259110057CC5B /* ViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3C1D8563288D91C100C2FA13 /* LearnUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1D8563288D91C100C2FA13 /* Learnian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learnian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1D8566288D91C100C2FA13 /* LearnUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnUpApp.swift; sourceTree = "<group>"; };
 		3C1D8568288D91C100C2FA13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C1D856A288D91C200C2FA13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C1D856D288D91C200C2FA13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C1D8575288D91D300C2FA13 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		3C1D8577288D9CA800C2FA13 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		3C1D8579288E324B00C2FA13 /* TitleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleInput.swift; sourceTree = "<group>"; };
+		3C1D857B288E40BC00C2FA13 /* ReflectInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectInput.swift; sourceTree = "<group>"; };
+		3C434158288E7BD30057CC5B /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		3C43415A288E84E00057CC5B /* ActionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionDetail.swift; sourceTree = "<group>"; };
+		3C43415C288FACA10057CC5B /* LearningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningView.swift; sourceTree = "<group>"; };
+		3C43415E288FACB00057CC5B /* Learned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learned.swift; sourceTree = "<group>"; };
+		3C4341602890F2E10057CC5B /* LearnedDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnedDetail.swift; sourceTree = "<group>"; };
+		3C4341642890F5860057CC5B /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		3C43416F289259110057CC5B /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +57,7 @@
 		3C1D855A288D91C100C2FA13 = {
 			isa = PBXGroup;
 			children = (
-				3C1D8565288D91C100C2FA13 /* LearnUp */,
+				3C1D8565288D91C100C2FA13 /* Learnian */,
 				3C1D8564288D91C100C2FA13 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +65,21 @@
 		3C1D8564288D91C100C2FA13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C1D8563288D91C100C2FA13 /* LearnUp.app */,
+				3C1D8563288D91C100C2FA13 /* Learnian.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3C1D8565288D91C100C2FA13 /* LearnUp */ = {
+		3C1D8565288D91C100C2FA13 /* Learnian */ = {
 			isa = PBXGroup;
 			children = (
-				3C1D8566288D91C100C2FA13 /* LearnUpApp.swift */,
-				3C1D8568288D91C100C2FA13 /* ContentView.swift */,
+				3C43416E289258B30057CC5B /* Extensions */,
+				3C4341632890F2FF0057CC5B /* Model */,
+				3C4341622890F2EA0057CC5B /* Views */,
 				3C1D856A288D91C200C2FA13 /* Assets.xcassets */,
 				3C1D856C288D91C200C2FA13 /* Preview Content */,
 			);
-			path = LearnUp;
+			path = Learnian;
 			sourceTree = "<group>";
 		};
 		3C1D856C288D91C200C2FA13 /* Preview Content */ = {
@@ -67,12 +90,46 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3C4341622890F2EA0057CC5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C1D8566288D91C100C2FA13 /* LearnUpApp.swift */,
+				3C1D8568288D91C100C2FA13 /* ContentView.swift */,
+				3C1D8579288E324B00C2FA13 /* TitleInput.swift */,
+				3C43415A288E84E00057CC5B /* ActionDetail.swift */,
+				3C1D857B288E40BC00C2FA13 /* ReflectInput.swift */,
+				3C43415C288FACA10057CC5B /* LearningView.swift */,
+				3C43415E288FACB00057CC5B /* Learned.swift */,
+				3C4341602890F2E10057CC5B /* LearnedDetail.swift */,
+				3C4341642890F5860057CC5B /* SplashScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C4341632890F2FF0057CC5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C1D8577288D9CA800C2FA13 /* DataController.swift */,
+				3C1D8574288D91D300C2FA13 /* Model.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C43416E289258B30057CC5B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3C434158288E7BD30057CC5B /* Color.swift */,
+				3C43416F289259110057CC5B /* ViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3C1D8562288D91C100C2FA13 /* LearnUp */ = {
+		3C1D8562288D91C100C2FA13 /* Learnian */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C1D8571288D91C200C2FA13 /* Build configuration list for PBXNativeTarget "LearnUp" */;
+			buildConfigurationList = 3C1D8571288D91C200C2FA13 /* Build configuration list for PBXNativeTarget "Learnian" */;
 			buildPhases = (
 				3C1D855F288D91C100C2FA13 /* Sources */,
 				3C1D8560288D91C100C2FA13 /* Frameworks */,
@@ -82,9 +139,9 @@
 			);
 			dependencies = (
 			);
-			name = LearnUp;
+			name = Learnian;
 			productName = LearnUp;
-			productReference = 3C1D8563288D91C100C2FA13 /* LearnUp.app */;
+			productReference = 3C1D8563288D91C100C2FA13 /* Learnian.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +159,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3C1D855E288D91C100C2FA13 /* Build configuration list for PBXProject "LearnUp" */;
+			buildConfigurationList = 3C1D855E288D91C100C2FA13 /* Build configuration list for PBXProject "Learnian" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C1D8562288D91C100C2FA13 /* LearnUp */,
+				3C1D8562288D91C100C2FA13 /* Learnian */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +194,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C4341652890F5860057CC5B /* SplashScreen.swift in Sources */,
 				3C1D8569288D91C100C2FA13 /* ContentView.swift in Sources */,
+				3C1D8578288D9CA800C2FA13 /* DataController.swift in Sources */,
+				3C4341612890F2E10057CC5B /* LearnedDetail.swift in Sources */,
+				3C434159288E7BD30057CC5B /* Color.swift in Sources */,
+				3C43415F288FACB00057CC5B /* Learned.swift in Sources */,
+				3C43415D288FACA10057CC5B /* LearningView.swift in Sources */,
+				3C1D857C288E40BC00C2FA13 /* ReflectInput.swift in Sources */,
 				3C1D8567288D91C100C2FA13 /* LearnUpApp.swift in Sources */,
+				3C1D8576288D91D300C2FA13 /* Model.xcdatamodeld in Sources */,
+				3C43415B288E84E00057CC5B /* ActionDetail.swift in Sources */,
+				3C1D857A288E324B00C2FA13 /* TitleInput.swift in Sources */,
+				3C434170289259110057CC5B /* ViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +334,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LearnUp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Learnian/Preview Content\"";
 				DEVELOPMENT_TEAM = C77567662R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,8 +348,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bsd.LearnUp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = bsd.Learnian;
+				PRODUCT_NAME = Learnian;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,7 +363,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LearnUp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Learnian/Preview Content\"";
 				DEVELOPMENT_TEAM = C77567662R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,8 +377,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bsd.LearnUp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = bsd.Learnian;
+				PRODUCT_NAME = Learnian;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,7 +388,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C1D855E288D91C100C2FA13 /* Build configuration list for PBXProject "LearnUp" */ = {
+		3C1D855E288D91C100C2FA13 /* Build configuration list for PBXProject "Learnian" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C1D856F288D91C200C2FA13 /* Debug */,
@@ -329,7 +397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C1D8571288D91C200C2FA13 /* Build configuration list for PBXNativeTarget "LearnUp" */ = {
+		3C1D8571288D91C200C2FA13 /* Build configuration list for PBXNativeTarget "Learnian" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C1D8572288D91C200C2FA13 /* Debug */,
@@ -339,6 +407,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C1D8574288D91D300C2FA13 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C1D8575288D91D300C2FA13 /* Model.xcdatamodel */,
+			);
+			currentVersion = 3C1D8575288D91D300C2FA13 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3C1D855B288D91C100C2FA13 /* Project object */;
 }
